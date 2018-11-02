@@ -1,0 +1,79 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (..\HARDWARE\LED\led.h)(0x5BD827CC)()
+F (.\startup_stm32f10x_hd.s)(0x54B0B2EE)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I"C:\Users\lenovo\Desktop\ALIENTEK MiniSTM32 实验0 新建工程实验\USER\RTE"-ID:\mdk5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\mdk5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F10X_HD SETA 1"--list ..\obj\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (.\test.c)(0x5BDB0C86)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\RED_TYPE -I ..\HARDWARE\MACHINE -I ..\HARDWARE\PWM-I"C:\Users\lenovo\Desktop\ALIENTEK MiniSTM32 实验0 新建工程实验\USER\RTE"-ID:\mdk5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\mdk5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\mdk5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (D:\mdk5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+I (..\HARDWARE\LED\led.h)(0x5BD827CC)
+I (..\HARDWARE\KEY\key.h)(0x5BD82107)
+I (..\HARDWARE\RED_TYPE\red_type.h)(0x5BD827E4)
+I (..\HARDWARE\MACHINE\machine.h)(0x5BD9BD0D)
+I (..\HARDWARE\PWM\PWM.h)(0x5BD9BCAD)
+F (..\SYSTEM\delay\delay.c)(0x555AC5E1)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\RED_TYPE -I ..\HARDWARE\MACHINE -I ..\HARDWARE\PWM-I"C:\Users\lenovo\Desktop\ALIENTEK MiniSTM32 实验0 新建工程实验\USER\RTE"-ID:\mdk5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\mdk5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\mdk5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x550EB960)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\RED_TYPE -I ..\HARDWARE\MACHINE -I ..\HARDWARE\PWM-I"C:\Users\lenovo\Desktop\ALIENTEK MiniSTM32 实验0 新建工程实验\USER\RTE"-ID:\mdk5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\mdk5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\mdk5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\usart\usart.c)(0x5A31E900)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\RED_TYPE -I ..\HARDWARE\MACHINE -I ..\HARDWARE\PWM-I"C:\Users\lenovo\Desktop\ALIENTEK MiniSTM32 实验0 新建工程实验\USER\RTE"-ID:\mdk5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\mdk5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\mdk5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\mdk5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\HARDWARE\LED\led.c)(0x5BD82869)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\RED_TYPE -I ..\HARDWARE\MACHINE -I ..\HARDWARE\PWM-I"C:\Users\lenovo\Desktop\ALIENTEK MiniSTM32 实验0 新建工程实验\USER\RTE"-ID:\mdk5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\mdk5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\mdk5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\LED\led.h)(0x5BD827CC)
+F (..\HARDWARE\KEY\key.c)(0x5BD827CC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\RED_TYPE -I ..\HARDWARE\MACHINE -I ..\HARDWARE\PWM-I"C:\Users\lenovo\Desktop\ALIENTEK MiniSTM32 实验0 新建工程实验\USER\RTE"-ID:\mdk5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\mdk5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x5BD82107)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\mdk5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+F (..\HARDWARE\KEY\key.h)(0x5BD82107)()
+F (..\HARDWARE\RED_TYPE\red_type.c)(0x5BD827F0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\RED_TYPE -I ..\HARDWARE\MACHINE -I ..\HARDWARE\PWM-I"C:\Users\lenovo\Desktop\ALIENTEK MiniSTM32 实验0 新建工程实验\USER\RTE"-ID:\mdk5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\mdk5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\red_type.o --omf_browse ..\obj\red_type.crf --depend ..\obj\red_type.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\mdk5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\RED_TYPE\red_type.h)(0x5BD827E4)
+F (..\HARDWARE\RED_TYPE\red_type.h)(0x5BD827E4)()
+F (..\HARDWARE\MACHINE\machine.c)(0x5BD9BD0C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\RED_TYPE -I ..\HARDWARE\MACHINE -I ..\HARDWARE\PWM-I"C:\Users\lenovo\Desktop\ALIENTEK MiniSTM32 实验0 新建工程实验\USER\RTE"-ID:\mdk5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\mdk5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\machine.o --omf_browse ..\obj\machine.crf --depend ..\obj\machine.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\mdk5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\MACHINE\machine.h)(0x5BD9BD0D)
+F (..\HARDWARE\MACHINE\machine.h)(0x5BD9BD0D)()
+F (..\HARDWARE\PWM\PWM.c)(0x5BD9C420)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\RED_TYPE -I ..\HARDWARE\MACHINE -I ..\HARDWARE\PWM-I"C:\Users\lenovo\Desktop\ALIENTEK MiniSTM32 实验0 新建工程实验\USER\RTE"-ID:\mdk5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\mdk5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\pwm.o --omf_browse ..\obj\pwm.crf --depend ..\obj\pwm.d)
+I (..\HARDWARE\PWM\PWM.h)(0x5BD9BCAD)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\mdk5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\LED\led.h)(0x5BD827CC)
+F (..\HARDWARE\PWM\PWM.h)(0x5BD9BCAD)()
